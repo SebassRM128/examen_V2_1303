@@ -1,0 +1,52 @@
+print ("EXAMEN V2")
+print (" Gael Sebastian Rojas Mata. Mat: 1303")
+
+# CLASE
+class centralcam1303:
+    # DICCIONARIOS
+    def central1303b1(self):
+        MiBus1={
+                    "ID":1281303,
+                    "Conductor": "Roberto Gaytan",
+                    "Pasajeros": 27, 
+                    "No. de cuenta": 1000801200523,
+                    }
+        print(MiBus1)
+        for info,cant in MiBus1.items():
+            print(f"{info}: {cant}")
+
+    def central1303b2(self):
+        MiBus2={
+                    "ID":1281202,
+                    "Conductor": "Janna Granados",
+                    "Pasajeros": 32, 
+                    "No. de cuenta": 1000801201234,
+                    }
+        print(MiBus2)
+        for info,cant in MiBus2.items():
+            print(f"{info}: {cant}")
+
+    def central1303b3(self):
+        MiBus3={
+                    "ID":1281345,
+                    "Conductor": "Nikolas Medina",
+                    "Pasajeros": 19, 
+                    "No. de cuenta": 1000801208754,
+                    }
+        print(MiBus3)
+        for info,cant in MiBus3.items():
+            print(f"{info}: {cant}")
+    
+    
+
+# OBJETO
+objeto1303=centralcam1303()
+print("")
+print("INFROMACION DEL BUS 1:")
+objeto1303.central1303b1()
+print("")
+print("INFROMACION DEL BUS 2:")
+objeto1303.central1303b2()
+print("")
+print("INFROMACION DEL BUS 3:")
+objeto1303.central1303b3()
